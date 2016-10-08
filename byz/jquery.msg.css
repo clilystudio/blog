@@ -1,0 +1,63 @@
+#jquery-msg-bg {
+    -moz-opacity: 0.6;
+    -khtml-opacity: 0.6;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    background: black;
+}
+.jquery-msg-content {
+    -webkit-background-clip: padding-box;
+    padding: 4px 10px 4px 10px;
+    font-family: Monaco, 'Lucida Console', monospace;
+    color: white;
+    -moz-opacity: 0.9;
+    -khtml-opacity: 0.9;
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    -webkit-box-shadow: 5px 5px 30px 0 black;
+    -moz-box-shadow: 5px 5px 30px 0 black;
+    box-shadow: 5px 5px 30px 0 black;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    -khtml-border-radius: 8px;
+    -ms-border-radius: 8px;
+    border-radius: 8px;
+    /* ie fix */
+    -pie-lazy-init: true;
+}
+.teacher .jquery-msg-content{
+    background: #388e3c;
+    font-size: 2rem;
+}
+.male .jquery-msg-content {
+    background: #303f9f;
+    font-size: 2rem;
+}
+.female .jquery-msg-content{
+    background: #c2185b;
+    font-size: 2rem;
+}
+.teacherM .jquery-msg-content{
+    background: #388e3c;
+    font-size: 3rem;
+}
+.maleM .jquery-msg-content {
+    background: #303f9f;
+    font-size: 3rem;
+}
+.femaleM .jquery-msg-content{
+    background: #c2185b;
+    font-size: 3rem;
+}
+body {
+    background: #000000;
+    padding: 0;
+    margin: 0 0 0 0px;
+}
+.namebox{
+    cursor: pointer;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+}
