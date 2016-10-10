@@ -8,7 +8,6 @@
 .jquery-msg-content {
     -webkit-background-clip: padding-box;
     padding: 4px 10px 4px 10px;
-    font-family: Monaco, 'Lucida Console', monospace;
     color: white;
     -moz-opacity: 0.9;
     -khtml-opacity: 0.9;
@@ -54,10 +53,17 @@ body {
     background: #000000;
     padding: 0;
     margin: 0 0 0 0px;
+	font-family: Monaco, 'Lucida Console', monospace;
 }
-.namebox{
+.namebox {
     cursor: pointer;
     width: 70px;
     height: 70px;
     position: absolute;
+}
+.pictitle {
+	color:#fe3c38;
+	font-size:1.5em;
+	width: 1280px;
+	text-align:center;
 }
